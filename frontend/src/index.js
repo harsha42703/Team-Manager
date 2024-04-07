@@ -6,7 +6,7 @@ import App from './App';
 import { UserDetails } from './features/User/UserSlice';
 
 import './index.css';
-export const baseUrl = "http://localhost:5000"
+export const baseUrl = "hhttps://team-manager-fj70.onrender.com"
 const container = document.getElementById('root');
 const root = createRoot(container);
 store.dispatch(UserDetails())
