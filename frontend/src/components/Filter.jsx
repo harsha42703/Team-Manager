@@ -41,7 +41,7 @@ const Filter = () => {
 
   return (
     <>
-    <div className="mt-28 md:mt-16 flex flex-col pt-14 lg:flex-row md:flex-row items-center justify-center lg:justify-start md:justify-start">
+    <div className="mt-24 md:mt-16 flex flex-col pt-14 lg:flex-row md:flex-row items-center justify-center lg:justify-start md:justify-start">
      <div className='flex flex-col justify-center items-center mx-3 w-[80vw] md:flex-row'>
      <Dropdown
         options={["Female", "Male", "Agender", "Bigender"]}
